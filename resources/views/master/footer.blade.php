@@ -1,4 +1,4 @@
-<div class="d-flex align-items-center flex-column bd-highlight mb-2">
+<div class="d-flex align-items-center flex-column bd-highlight mb-2" style="background-color: #0F1729">
     <div class="justify-content-center" id="footer-group-imag">
         <img id="footer-home-imag" src="{{asset('images/instagram.png')}}"  alt="instagram" >
         <img id="footer-home-imag" src="{{asset('images/linkedin.png')}}"   alt="linkedin"  >

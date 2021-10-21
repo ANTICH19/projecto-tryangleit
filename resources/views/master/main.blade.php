@@ -7,24 +7,21 @@
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
     <title>Tryangleit</title>
 </head>
-<body id=" app" style="background-color: #0F1729;">
-    <div class="container">
+<div id=" app">
+    <div style="background-color: {{$color}}">
         <header>
-        @component('master.header')
-        @endcomponent
+            <div style="background-color: #0F1729">
+            @component('master.header')
+            @endcomponent
         </header>
-
-
-        @yield('content')
-
-
-        @component('master.footer')
-        @endcomponent
+        <div class="container">
+            @yield('content')
+        </div>
+        <div class="mt-4">
+            @component('master.footer')
+            @endcomponent
+        </div>
     </div>
-
+</div>
 <script src="{{asset('js/nav.js')}}"></script>
-
-
-
-</body>
 </html>

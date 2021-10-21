@@ -1,4 +1,4 @@
-<div class="d-flex align-items-center flex-column bd-highlight mb-2">
+<div class="d-flex align-items-center flex-column bd-highlight mb-2" style="background-color: #0F1729">
     <div class="d-flex justify-content-center">
         <div id="back-nav-bar" >
             <div id="front-nav-bar">
