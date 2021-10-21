@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 /*Page Home*/
 Route::get('/home', function (){
-    return view('pages.home', ['color'=>'#0F1729']);
+    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);
 });
 
 
 /*Page Blog*/
 Route::get('/blog', function (){
-    return view('pages.blog',['color'=>'#F6F5F5']);
+    return view('pages.blog',['color'=>'#0F1729'],['header_color'=>'transparent']);
 });
 
 /*Page About*/
