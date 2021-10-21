@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', function (){
-    return view('pages.home');
+    return view('pages.home', ['color'=>'#0F1729']);
 });
 Route::get('/blog', function (){
-    return view('pages.blog');
+    return view('pages.blog',['color'=>'#F6F5F5']);
 });
 Route::get('/about', function (){
-    return view('pages.about');
+    return view('pages.about',['color'=>'#0F1729']);
 });
 Route::get('/services', function (){
     return view('pages.services');
@@ -28,4 +28,5 @@ Route::get('/services', function (){
 Route::get('/post', function (){
     return view('pages.post');
 });
+
 
