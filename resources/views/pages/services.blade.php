@@ -72,10 +72,10 @@
 
     </div>
     </div>
-
+    </div>
 <div style="background-color: #0F1729" class="container" >
     <!--Form-->
-    <div>
+    <div class="d-flex justify-content-center text-white">
         <h1 id="title-services">Faça o seu orçamento</h1>
     </div>
 

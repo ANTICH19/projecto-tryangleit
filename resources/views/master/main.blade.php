@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,10 +10,11 @@
 </head>
 <div id=" app">
     <div style="background-color: {{$color}}">
-        <header>
-            <div style="background-color: #0F1729">
+        <header style="background-color: transparent">
+            <div style="background-color: transparent">
             @component('master.header')
             @endcomponent
+            </div>
         </header>
 
             @yield('content')
