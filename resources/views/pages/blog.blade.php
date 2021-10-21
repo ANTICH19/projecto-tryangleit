@@ -46,47 +46,4 @@
 
 
     </div>
-    <style>
-
-        #post-blog{
-            background-color: #CED3DB23;
-            padding: 50px 10px;
-            border-radius: 20px;
-            margin: 3% 4%;
-            flex-direction: column;
-            text-align: center;
-        }
-        #imag-blog{
-            border-radius: 20px;
-            border: 2px solid #ced3db;
-            padding: 5px;
-            width: 65%;
-            margin-bottom: 20px
-        }
-
-
-        @media only screen and (max-width: 770px) {
-
-
-
-            #post-blog{
-               margin-left: 8%;
-                display: flex;
-                text-align: center;
-                flex-direction: column;
-                background-color: #CED3DB23;
-                border-radius: 50px;
-            }
-            #imag-blog {
-                margin: 20px 0px 20px 0px;
-                width: 200px;
-            }
-        }
-
-    </style>
-
-
-
-
-
 @endsection
