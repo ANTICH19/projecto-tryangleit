@@ -1,0 +1,27 @@
+/*FOOTER HOME*/
+#footer-home-imag, #footer-home-text {
+    margin: 20px;
+}
+#footer-home-text{
+    font-family: Roboto;
+    color: #CED3DB;
+}
+#footer-group-imag, #footer-group-text {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 770px) {
+    #footer-group-imag{
+        flex-direction: inherit;
+    }
+
+    #footer-home-text{
+        text-align: center;
+        font-size: medium;
+    }
+    #footer-home-imag{
+        width: 50%;
+    }
+}
+/*END FOOTER HOME*/

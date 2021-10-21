@@ -1,0 +1,47 @@
+/*SERVICES*/
+
+#title-services{
+    margin: 50px;
+    font-size: 100px;
+    color: #CED3DB;
+    font-family: 'Autumn In November', serif;
+}
+#card-service {
+    font-family: Roboto, serif;
+    text-align: center;
+    background-color: #CED3DB23;
+    color: #CED3DB;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+#icon-service{
+    margin: 20px;
+    border-radius: 100%;
+    border: 3px solid #CED3DB;
+    padding: 5px;
+    width: 130px;
+}
+#title-card-services{
+    margin: 10px 0px 20px 0px;
+}
+#form-services {
+    font-family: Roboto;
+    color: #CED3DB;
+
+}
+
+#cards-service{
+    padding-bottom: 200px;
+    display: flex;
+}
+@media all and (max-width: 1200px) {
+    #cards-service{
+        display: block;
+    }
+}
+
+
+/*END SERVICES*/

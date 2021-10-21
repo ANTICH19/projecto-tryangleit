@@ -1,0 +1,71 @@
+/*BLOG*/
+#title-blog{
+    margin: 50px;
+    font-size: 100px;
+    color: #CED3DB;
+    font-family: 'Autumn In November';
+}
+#imag-blog{
+    width: 250px;
+    border-radius: 30px;
+}
+#post-blog-left{
+    margin: 50px;
+    text-align: right;
+
+}
+#post-blog-right{
+    margin: 50px;
+
+}
+#text-blog{
+    margin: 0px 40px 0px 40px;
+    color: #CED3DB;
+    font-family: Roboto;
+}
+#bar-blog{
+    border: 1px solid #CED3DB;
+    margin: 20px 40px 20px 40px;
+    border-radius: 2px;
+}
+#imag-blog-vertical-left{
+    left: 0px;
+    width: 100px;
+    float: left;
+    position: fixed;
+    opacity: 50%;
+
+}
+#imag-blog-vertical-right{
+    right: 0px;
+    width: 100px;
+    float: left;
+    position: fixed;
+    opacity: 50%;
+}
+#post-blog-right, #post-blog-left {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 770px) {
+    #post-blog-right, #post-blog-left {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        background-color: #CED3DB23;
+        padding: 20px;
+        border-radius: 50px;
+    }
+    #post-blog-left {
+        flex-direction: column-reverse;
+    }
+    #imag-blog {
+        margin: 20px 0px 20px 0
+    }
+    #imag-blog-vertical-left, #imag-blog-vertical-right {
+        opacity: 0%;
+
+    }
+}
+/*END BLOG*/

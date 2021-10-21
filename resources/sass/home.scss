@@ -1,0 +1,12 @@
+/*HOME*/
+#imag-home{
+    width: 80%;
+    margin: 25% 10% 25% 10%;
+}
+
+@media only screen and (max-width: 770px) {
+    #imag-home{
+        width: 40%;
+    }
+}
+/*END HOME*/
