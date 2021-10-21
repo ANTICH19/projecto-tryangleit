@@ -11388,18 +11388,18 @@ textarea.form-control-lg {
 /*END NAV BAR*/
 /* width */
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
 body::-webkit-scrollbar-track {
-  background-color: #CED3DB23;
+  background-color: #0F1729;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
   background-color: #CED3DB;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -11543,3 +11543,12 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 /*END SERVICES*/
+/*Common File*/
+#title {
+  margin: 50px;
+  font-size: 100px;
+  color: #CED3DB;
+  font-family: "Autumn In November";
+}
+
+/*END Common File*/

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="d-flex justify-content-around" style="text-align: center">
-        <h1 id="title-about">Sobre</h1>
+        <h1 id="title">Sobre</h1>
     </div>
 
 

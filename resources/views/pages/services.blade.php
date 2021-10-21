@@ -28,7 +28,7 @@
 
     <div class="container">
     <div class="d-flex justify-content-center">
-        <h1 id="title-services">Serviços</h1>
+        <h1 id="title">Serviços</h1>
     </div>
 
     <!--Cards -->

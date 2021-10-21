@@ -2,10 +2,8 @@
 
 @section('content')
     <div id="body-blog">
-
-
         <div class="d-flex justify-content-around" style="text-align: center">
-            <h1 id="title-blog">Blog</h1>
+            <h1 id="title">Blog</h1>
         </div>
 
         <div class="row">
