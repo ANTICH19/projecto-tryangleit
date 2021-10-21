@@ -14,10 +14,10 @@
             @component('master.header')
             @endcomponent
         </header>
-        <div class="container">
+
             @yield('content')
-        </div>
-        <div class="mt-4">
+
+        <div class="">
             @component('master.footer')
             @endcomponent
         </div>

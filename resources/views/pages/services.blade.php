@@ -2,16 +2,31 @@
 
 @section('content')
     <?php
-        $value = 1;
+        /*$value = 1;
         if ($value == 1){
-            ?> <body style="background-image: url('{{asset('images/servicesBG.png')}}');
+            ?> <div style="background-image: url('{{asset('images/servicesBG.png')}}');
         position: relative;
         background-size: 100% auto;
         ;background-repeat: no-repeat" class="container">
-    </body>
+
+    </div>
     <?php
-        }
+        }*/
     ?>
+    <style>
+        .heroimage{
+            background-image: url({{asset('images/servicesBG.png')}});
+            background-color: #cccccc;
+            height: 850px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+    <div class="heroimage">
+
+    <div class="container">
     <div class="d-flex justify-content-center">
         <h1 id="title-services">Serviços</h1>
     </div>
@@ -55,11 +70,12 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dicta facilis fugiat minima mollitia natus nostrum obcaecati perspiciatis, reprehenderit velit!</p>
         </div>
 
-
+    </div>
     </div>
 
+<div style="background-color: #0F1729" class="container" >
     <!--Form-->
-    <div style="display: flex">
+    <div>
         <h1 id="title-services">Faça o seu orçamento</h1>
     </div>
 
@@ -89,6 +105,7 @@
 
             </div>
         </div>
+    </div>
         <div id="line-form-service">
             <div>
                 <div class="d-flex justify-content-center">
@@ -111,7 +128,6 @@
                         <input type="text">
                     </div>
                 </div>
-
             </div>
         </div>
         <div>
@@ -120,8 +136,6 @@
                 <button>SUBMETER ORÇAMENTO</button>
             </div>
         </div>
-    </div>
-
-
+</div>
 
 @endsection
