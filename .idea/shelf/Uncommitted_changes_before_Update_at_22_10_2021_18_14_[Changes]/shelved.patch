@@ -1,0 +1,224 @@
+Index: resources/sass/nav-bar-tryangleit.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*NAV BAR*/\r\n#back-nav-bar{\r\n    margin-top: 10px;\r\n    padding: 1px 1px 1px 296px;\r\n    width: 585px;\r\n    height: 8px;\r\n    border-radius: 100px;\r\n    background-color: transparent;\r\n}\r\n#front-nav-bar{\r\n    width: 38px;\r\n    height: 100%;\r\n    border-radius: 100px;\r\n}\r\n#nav-bar-group-text{\r\n    padding-top: 10px;\r\n\r\n}\r\n#imag-yyy{\r\n    height: 40px;\r\n\r\n}\r\n#nav-bar-imag{\r\n    margin: 5px 30px 0px 30px;\r\n}\r\n#nav-bar-text{\r\n    margin: 10px 25px 10px 25px;\r\n    font-family: roboto;\r\n    color: #CED3DB;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n\r\n}\r\n#nav-bar-text:link,#nav-bar-text:visited, #nav-bar-text:hover, #nav-bar-text:active {\r\n\r\n}\r\n\r\n@media only screen and (max-width: 770px) {\r\n    #back-nav-bar, #front-nav-bar {\r\n        opacity: 0;\r\n        width: 0px;\r\n        height: 0px;\r\n    }\r\n    #nav-bar-text{\r\n        text-align: center;\r\n        font-size: xx-large;\r\n        display: block;\r\n    }\r\n    #nav-bar-text:hover{\r\n        font-weight: bold;\r\n    }\r\n    #imag-yyy{\r\n        padding-left: 30%;\r\n    }\r\n}\r\n/*END NAV BAR*/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resources/sass/nav-bar-tryangleit.scss b/resources/sass/nav-bar-tryangleit.scss
+--- a/resources/sass/nav-bar-tryangleit.scss	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/resources/sass/nav-bar-tryangleit.scss	(date 1634918789398)
+@@ -26,7 +26,7 @@
+ #nav-bar-text{
+     margin: 10px 25px 10px 25px;
+     font-family: roboto;
+-    color: #CED3DB;
++
+     text-decoration: none;
+     display: inline-block;
+ 
+@@ -37,7 +37,7 @@
+ 
+ @media only screen and (max-width: 770px) {
+     #back-nav-bar, #front-nav-bar {
+-        opacity: 0;
++
+         width: 0px;
+         height: 0px;
+     }
+Index: resources/views/pages/services.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@extends('master.main')\r\n\r\n@section('content')\r\n    <?php\r\n        /*$value = 1;\r\n        if ($value == 1){\r\n            ?> <div style=\"background-image: url('{{asset('images/servicesBG.png')}}');\r\n        position: relative;\r\n        background-size: 100% auto;\r\n        ;background-repeat: no-repeat\" class=\"container\">\r\n\r\n    </div>\r\n    <?php\r\n        }*/\r\n    ?>\r\n    <style>\r\n        .heroimage{\r\n            background-image: url({{asset('images/servicesBG.png')}});\r\n            background-color: #cccccc;\r\n            height: 850px;\r\n            background-position: center;\r\n            background-repeat: no-repeat;\r\n            background-size: cover;\r\n            position: relative;\r\n        }\r\n    </style>\r\n    <div class=\"heroimage\">\r\n\r\n    <div class=\"container\">\r\n    <div class=\"d-flex justify-content-center\">\r\n        <h1 id=\"title\">Serviços</h1>\r\n    </div>\r\n\r\n    <!--Cards -->\r\n    <div id=\"cards-service\" >\r\n        <div id=\"card-service\">\r\n            <div >\r\n                <img id=\"icon-service\" src=\"{{asset('images/yesIDo.png')}}\" alt=\"\">\r\n            </div>\r\n\r\n            <h5 id=\"title-card-services\">YES, I DO</h5>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis odio tempore voluptatibus! Alias deleniti labore laborum nulla omnis, voluptates!</p>\r\n        </div>\r\n        <div id=\"card-service\">\r\n            <div>\r\n                <img id=\"icon-service\" src=\"{{asset('images/cupid.png')}}\" alt=\"\">\r\n            </div>\r\n            <h5 id=\"title-card-services\">CUPID</h5>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse itaque nam nisi nostrum nulla quam quibusdam repudiandae voluptas, voluptatibus!</p>\r\n        </div>\r\n        <div id=\"card-service\">\r\n            <div>\r\n                <img id=\"icon-service\" src=\"{{asset('images/business.png')}}\" alt=\"\">\r\n            </div>\r\n            <h5 id=\"title-card-services\">BUSINESS</h5>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur libero nobis quia saepe similique sunt tempore voluptas. Ipsum, obcaecati?</p>\r\n        </div>\r\n        <div id=\"card-service\">\r\n            <div>\r\n                <img id=\"icon-service\" src=\"{{asset('images/maternity.png')}}\" alt=\"\">\r\n            </div>\r\n            <h5 id=\"title-card-services\">MATERNITY</h5>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut exercitationem hic laudantium omnis quasi quidem recusandae saepe suscipit, voluptas voluptate.</p>\r\n        </div>\r\n        <div id=\"card-service\">\r\n            <div>\r\n                <img id=\"icon-service\" src=\"{{asset('images/baptism.png')}}\" alt=\"\">\r\n            </div>\r\n            <h5 id=\"title-card-services\">BAPTISM</h5>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dicta facilis fugiat minima mollitia natus nostrum obcaecati perspiciatis, reprehenderit velit!</p>\r\n        </div>\r\n\r\n    </div>\r\n    </div>\r\n    </div>\r\n<div style=\"background-color: #0F1729\" class=\"container\" >\r\n    <!--Form-->\r\n    <div class=\"d-flex justify-content-center text-white\">\r\n        <h1 id=\"title-services\">Faça o seu orçamento</h1>\r\n    </div>\r\n\r\n    <div id=\"form-services\">\r\n        <div id=\"line-form-service\" style=\"background-color: #CED3DB23;\">\r\n            <div class=\"d-flex justify-content-around\">\r\n                <div>\r\n                    <p>YES, I DO</p>\r\n                    <input type=\"checkbox\">\r\n                </div>\r\n                <div>\r\n                    <p>CUPID</p>\r\n                    <input type=\"checkbox\">\r\n                </div>\r\n                <div>\r\n                    <p>BUSINESS</p>\r\n                    <input type=\"checkbox\">\r\n                </div>\r\n                <div>\r\n                    <p>MATERNITY</p>\r\n                    <input type=\"checkbox\">\r\n                </div>\r\n                <div>\r\n                    <p>BAPTISM</p>\r\n                    <input type=\"checkbox\">\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n        <div id=\"line-form-service\">\r\n            <div>\r\n                <div class=\"d-flex justify-content-center\">\r\n                     <div class=\"d-flex justify-content-center\">\r\n                         <p>Primeiro Nome</p>\r\n                         <input type=\"text\">\r\n                     </div>\r\n                    <div class=\"d-flex justify-content-center\">\r\n                        <p>E-mail</p>\r\n                        <input type=\"text\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"d-flex justify-content-center\">\r\n                    <div class=\"d-flex justify-content-center\">\r\n                        <p>Último Nome</p>\r\n                        <input type=\"text\">\r\n                    </div>\r\n                    <div class=\"d-flex justify-content-center\">\r\n                        <p>Nº Telemóvel</p>\r\n                        <input type=\"text\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div>\r\n            <div class=\"d-flex justify-content-center\">\r\n                <h3>Total - 0€</h3>\r\n                <button>SUBMETER ORÇAMENTO</button>\r\n            </div>\r\n        </div>\r\n</div>\r\n\r\n@endsection\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resources/views/pages/services.blade.php b/resources/views/pages/services.blade.php
+--- a/resources/views/pages/services.blade.php	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/resources/views/pages/services.blade.php	(date 1634919455449)
+@@ -25,7 +25,12 @@
+         }
+     </style>
+     <div class="heroimage">
+-
++        <header style="background-color: transparent">
++            <div style="background-color: transparent">
++                @component('master.header')
++                @endcomponent
++            </div>
++        </header>
+     <div class="container">
+     <div class="d-flex justify-content-center">
+         <h1 id="title">Serviços</h1>
+Index: resources/views/pages/portfolio.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n@extends('master.main')\r\n\r\n@section('content')\r\n    <div class=\"container\">\r\n        <div class=\"d-flex justify-content-center\">\r\n            <h1 id=\"title\">Portfolio</h1>\r\n        </div>\r\n        <div class=\"row\">\r\n\r\n            <div class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12\" style=\"margin-bottom: 10px;\">\r\n                <img class=\"img-fluid\" style=\"border-radius: 7%\" src=\"https://mcdn.wallpapersafari.com/medium/77/90/056lrX.jpg\" alt=\"\">\r\n            </div>\r\n\r\n            <div class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12\" style=\"margin-bottom: 10px;\">\r\n                <img class=\"img-fluid\" style=\"border-radius: 7%\" src=\"https://mcdn.wallpapersafari.com/medium/77/90/056lrX.jpg\" alt=\"\">\r\n            </div>\r\n\r\n            <div class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12\" style=\"margin-bottom: 10px;\">\r\n                <img class=\"img-fluid\" style=\"border-radius: 7%\" src=\"https://mcdn.wallpapersafari.com/medium/77/90/056lrX.jpg\" alt=\"\">\r\n            </div>\r\n\r\n            <div class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12\" style=\"margin-bottom: 10px;\">\r\n                <img class=\"img-fluid\" style=\"border-radius: 7%\" src=\"https://mcdn.wallpapersafari.com/medium/77/90/056lrX.jpg\" alt=\"\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <style>\r\n        imag-port{\r\n\r\n        }\r\n    </style>\r\n@endsection\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resources/views/pages/portfolio.blade.php b/resources/views/pages/portfolio.blade.php
+--- a/resources/views/pages/portfolio.blade.php	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/resources/views/pages/portfolio.blade.php	(date 1634922292387)
+@@ -2,6 +2,32 @@
+ @extends('master.main')
+ 
+ @section('content')
++    <style>
++        .heroimage{
++            background-image: url({{asset('images/servicesBG.png')}});
++            background-color: #cccccc;
++            height: 850px;
++            background-position: center;
++            background-repeat: no-repeat;
++            background-size: cover;
++            position: relative;
++        }
++    </style>
++<div class="heroimage">
++    <header style="background-color: transparent">
++        <div style="background-color: transparent">
++            @component('master.header')
++            @endcomponent
++        </div>
++    </header>
++    <div class="container">
++
++    </div>
++
++
++
++
++
+     <div class="container">
+         <div class="d-flex justify-content-center">
+             <h1 id="title">Portfolio</h1>
+@@ -25,9 +51,5 @@
+             </div>
+         </div>
+     </div>
+-    <style>
+-        imag-port{
+-
+-        }
+-    </style>
++</div>
+ @endsection
+Index: routes/web.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\nuse Illuminate\\Support\\Facades\\Route;\r\n\r\n/*\r\n|--------------------------------------------------------------------------\r\n| Web Routes\r\n|--------------------------------------------------------------------------\r\n|\r\n| Here is where you can register web routes for your application. These\r\n| routes are loaded by the RouteServiceProvider within a group which\r\n| contains the \"web\" middleware group. Now create something great!\r\n|\r\n*/\r\n/*Page Home*/\r\nRoute::get('/home', function (){\r\n    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);\r\n});\r\n\r\n\r\n/*Page Blog*/\r\nRoute::get('/blog', function (){\r\n    return view('pages.blog',['color'=>'#0F1729'],['header_color'=>'transparent']);\r\n});\r\n\r\n/*Page About*/\r\nRoute::get('/about', function (){\r\n    return view('pages.about',['color'=>'#0F1729']);\r\n});\r\n\r\n/*Page Services*/\r\nRoute::get('/services', function (){\r\n    return view('pages.services', ['color'=>'#0F1729']);\r\n});\r\n\r\n/*Page Portfolio*/\r\nRoute::get('/portfolio', function (){\r\n    return view('pages.portfolio',['color'=>'#0F1729']);\r\n});\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/routes/web.php b/routes/web.php
+--- a/routes/web.php	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/routes/web.php	(date 1634922670391)
+@@ -14,28 +14,28 @@
+ */
+ /*Page Home*/
+ Route::get('/home', function (){
+-    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);
++    return view('pages.home', ['color'=>'#0F1729','i'=>0]);
+ });
+ 
+ 
+ /*Page Blog*/
+ Route::get('/blog', function (){
+-    return view('pages.blog',['color'=>'#0F1729'],['header_color'=>'transparent']);
++    return view('pages.blog',['color'=>'#0F1729','i'=>0]);
+ });
+ 
+ /*Page About*/
+ Route::get('/about', function (){
+-    return view('pages.about',['color'=>'#0F1729']);
++    return view('pages.about',['color'=>'#0F1729','i'=>0]);
+ });
+ 
+ /*Page Services*/
+ Route::get('/services', function (){
+-    return view('pages.services', ['color'=>'#0F1729']);
++    return view('pages.services', ['color'=>'#0F1729','i'=>2]);
+ });
+ 
+ /*Page Portfolio*/
+ Route::get('/portfolio', function (){
+-    return view('pages.portfolio',['color'=>'#0F1729']);
++    return view('pages.portfolio',['color'=>'#0F1729','i'=>2]);
+ });
+ 
+ 
+Index: resources/views/master/main.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <link href=\"{{asset('css/app.css')}}\" rel=\"stylesheet\">\r\n    <title>Tryangleit</title>\r\n</head>\r\n<div id=\" app\">\r\n    <div style=\"background-color: {{$color}}\">\r\n        <header style=\"background-color: transparent\">\r\n            <div style=\"background-color: transparent\">\r\n            @component('master.header')\r\n            @endcomponent\r\n            </div>\r\n        </header>\r\n\r\n            @yield('content')\r\n\r\n        <div class=\"\">\r\n            @component('master.footer')\r\n            @endcomponent\r\n        </div>\r\n    </div>\r\n</div>\r\n<script src=\"{{asset('js/nav.js')}}\"></script>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resources/views/master/main.blade.php b/resources/views/master/main.blade.php
+--- a/resources/views/master/main.blade.php	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/resources/views/master/main.blade.php	(date 1634922637915)
+@@ -1,6 +1,5 @@
+ <!doctype html>
+ <html lang="en">
+-
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+@@ -10,16 +9,33 @@
+ </head>
+ <div id=" app">
+     <div style="background-color: {{$color}}">
+-        <header style="background-color: transparent">
+-            <div style="background-color: transparent">
+-            @component('master.header')
+-            @endcomponent
+-            </div>
+-        </header>
++
++        @switch($i)
++            @case(1)
++            <header style="background-color: transparent">
++                <div style="background-color: transparent">
++                    @component('master.header')
++                    @endcomponent
++                </div>
++            </header>
++            @break
++            @case(2)
++            <header>
++            </header>
++            @break
++            @default
++            <header style="background-color: transparent">
++                <div style="background-color: transparent">
++                    @component('master.header')
++                    @endcomponent
++                </div>
++            </header>
++        @endswitch
++
+ 
+             @yield('content')
+ 
+-        <div class="">
++        <div class="container">
+             @component('master.footer')
+             @endcomponent
+         </div>
+Index: resources/views/master/header.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div class=\"d-flex align-items-center flex-column bd-highlight mb-2\" style=\"background-color: transparent\">\r\n    <div class=\"d-flex justify-content-center\">\r\n        <div id=\"back-nav-bar\" >\r\n            <div id=\"front-nav-bar\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div id=\"nav-bar-group-text\" class=\"justify-content-center\" style=\"background-color: transparent\">\r\n        <a id=\"nav-bar-text\" href=\"/portfolio\" onclick=\"por()\">Portefolio</a>\r\n        <a id=\"nav-bar-text\" href=\"/blog\" onclick=\"blo()\">Blog</a>\r\n        <a id=\"nav-bar-text\" href=\"/about\" onclick=\"sob()\">Sobre</a>\r\n        <a id=\"nav-bar-imag\" href=\"/home\" onclick=\"yyy()\">\r\n            <img id=\"imag-yyy\" src=\"{{URL::asset('images/yTryangleitWhite.png')}}\" alt=\"yyyy\">\r\n        </a>\r\n        <a id=\"nav-bar-text\" href=\"/services\" onclick=\"ser()\">Serviços</a>\r\n        <a id=\"nav-bar-text\" href=\"/client\" onclick=\"cli()\">Área Cliente</a>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resources/views/master/header.blade.php b/resources/views/master/header.blade.php
+--- a/resources/views/master/header.blade.php	(revision 25774c94710298052d81fa196e96577476b744e6)
++++ b/resources/views/master/header.blade.php	(date 1634918789393)
+@@ -1,4 +1,4 @@
+-<div class="d-flex align-items-center flex-column bd-highlight mb-2" style="background-color: transparent">
++<div class="d-flex align-items-center flex-column bd-highlight mb-2">
+     <div class="d-flex justify-content-center">
+         <div id="back-nav-bar" >
+             <div id="front-nav-bar">
