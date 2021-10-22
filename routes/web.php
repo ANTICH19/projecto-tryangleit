@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function (){
     return view('pages.home', ['color'=>'#0F1729','i'=>0]);
 });
+Route::get('/', function (){
+    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);
+});
 
 
 /*Page Blog*/
