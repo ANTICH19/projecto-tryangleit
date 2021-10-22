@@ -5,7 +5,6 @@
             </div>
         </div>
     </div>
-
     <div id="nav-bar-group-text" class="justify-content-center" style="background-color: transparent">
         <a id="nav-bar-text" href="/portfolio" onclick="por()">Portefolio</a>
         <a id="nav-bar-text" href="/blog" onclick="blo()">Blog</a>

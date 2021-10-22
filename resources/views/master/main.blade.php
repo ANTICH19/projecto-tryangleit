@@ -13,8 +13,8 @@
 
         @switch($header)
             @case(1)
-            <header style="background-color: transparent">
-                <div style="background-color: transparent">
+            <header>
+                <div>
                     @component('master.header')
                     @endcomponent
                 </div>
