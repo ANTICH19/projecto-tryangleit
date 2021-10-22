@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.10 - Ivens">
-      <change afterPath="$PROJECT_DIR$/public/fonts/autumn-in-november/Autumn in November.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-BoldCondensed.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-BoldCondensedItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Condensed.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-CondensedItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/watermelon-script-demo/Watermelon Script Demo.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projecto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.10 - Serviços">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +176,10 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -281,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634854809808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v.21.10 - Serviços">
+      <created>1634924595394</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634924595394</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +294,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v.21.10 - Ivens" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.10 - Ivens" />
+    <MESSAGE value="v.21.10 - Serviços" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.21.10 - Serviços" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

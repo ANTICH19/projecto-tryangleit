@@ -1,20 +1,56 @@
-<div>
-    <div class="container"></div>
-<div class="d-flex align-items-center flex-column bd-highlight " style="background-color: #0F1729">
-    <div class="justify-content-center" id="footer-group-imag">
-        <img id="footer-home-imag" src="{{asset('images/instagram.png')}}"  alt="instagram" >
-        <img id="footer-home-imag" src="{{asset('images/linkedin.png')}}"   alt="linkedin"  >
-        <img id="footer-home-imag" src="{{asset('images/pinterest.png')}}"  alt="pinterest" >
-        <img id="footer-home-imag" src="{{asset('images/youtube.png')}}"    alt="youtube"   >
-        <img id="footer-home-imag" src="{{asset('images/vimeo.png')}}"      alt="vimeo"     >
-        <img id="footer-home-imag" src="{{asset('images/facebook.png')}}"   alt="facebook"  >
-        <img id="footer-home-imag" src="{{asset('images/casamentos.png')}}" alt="casamentos">
+<div style="background-color: #0F1729">
+    <div class="container text-white">
+        <div class="row">
+            <div class="col">
+                <h2>
+                    Onde estamos!
+                </h2>
+                <p1>
+                    256R.Pinto de Araújo <br>
+                    Leça da Palmeira<br>
+                    Porto<br>
+                    4450-777<br>
+                    +351 91234567
+                </p1>
+            </div>
+            <div class="col">
+                <h2>
+                    Follow Us!
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        <img src="{{asset('images/instagram.png')}}">
+                    </div>
+                    <div class="col">
+                        <img src="{{asset('images/linkedin.png')}}">
+                    </div >
+                    <div class="col" style="padding-right: 50%">
+                        <img src="{{asset('images/pinterest.png')}}" >
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col">
+                        <img src="{{asset('images/vimeo.png')}}">
+                    </div>
+                    <div class="col">
+                        <img src="{{asset('images/youtube.png')}}">
+                    </div>
+                    <div class="col" style="padding-right: 50%">
+                        <img src="{{asset('images/casamentos.png')}}">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/tryangleit/"
+                     data-width="380"
+                     data-hide-cover="false"
+                     data-show-facepile="false">
+
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="justify-content-center" id="footer-group-text">
-        <p id="footer-home-text">+351 912 345 678</p>
-        <p id="footer-home-text">tryangleit@mail.com</p>
-    </div>
-</div>
 </div>
 
 

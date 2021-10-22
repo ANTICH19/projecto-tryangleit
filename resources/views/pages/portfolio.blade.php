@@ -24,7 +24,7 @@
         <img src="{{'images/tryangleitWhite.png'}}" alt="logo">
     </div>
 </div>
-    <div class="container" style="padding-top: 5%">
+    <div class="container" style="padding-top: 5%;padding-bottom: 2%">
         <div class="row mt-3">
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 10px;">
                 <img class="img-fluid" style="border-radius: 7%" src="https://mcdn.wallpapersafari.com/medium/77/90/056lrX.jpg" alt="">
