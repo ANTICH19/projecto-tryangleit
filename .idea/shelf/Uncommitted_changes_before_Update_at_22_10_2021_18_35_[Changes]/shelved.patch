@@ -1,0 +1,121 @@
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+--- a/package-lock.json	(revision a25a914ac180327c7af31c474045dff467d020bb)
++++ b/package-lock.json	(date 1634920744783)
+@@ -6,7 +6,7 @@
+         "": {
+             "devDependencies": {
+                 "axios": "^0.22.0",
+-                "bootstrap": "^4.0.0",
++                "bootstrap": "^5.0.0",
+                 "cross-env": "^7.0",
+                 "jquery": "^3.2",
+                 "laravel-mix": "^6.0.31",
+@@ -1676,6 +1676,17 @@
+                 "node": ">= 8"
+             }
+         },
++        "node_modules/@popperjs/core": {
++            "version": "2.10.2",
++            "resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz",
++            "integrity": "sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==",
++            "dev": true,
++            "peer": true,
++            "funding": {
++                "type": "opencollective",
++                "url": "https://opencollective.com/popperjs"
++            }
++        },
+         "node_modules/@trysound/sax": {
+             "version": "0.2.0",
+             "resolved": "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz",
+@@ -2576,17 +2587,16 @@
+             "dev": true
+         },
+         "node_modules/bootstrap": {
+-            "version": "4.6.0",
+-            "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz",
+-            "integrity": "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==",
++            "version": "5.1.3",
++            "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.1.3.tgz",
++            "integrity": "sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==",
+             "dev": true,
+             "funding": {
+                 "type": "opencollective",
+                 "url": "https://opencollective.com/bootstrap"
+             },
+             "peerDependencies": {
+-                "jquery": "1.9.1 - 3",
+-                "popper.js": "^1.16.1"
++                "@popperjs/core": "^2.10.2"
+             }
+         },
+         "node_modules/brace-expansion": {
+@@ -10768,6 +10778,13 @@
+                 "fastq": "^1.6.0"
+             }
+         },
++        "@popperjs/core": {
++            "version": "2.10.2",
++            "resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz",
++            "integrity": "sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==",
++            "dev": true,
++            "peer": true
++        },
+         "@trysound/sax": {
+             "version": "0.2.0",
+             "resolved": "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz",
+@@ -11544,9 +11561,9 @@
+             "dev": true
+         },
+         "bootstrap": {
+-            "version": "4.6.0",
+-            "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz",
+-            "integrity": "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==",
++            "version": "5.1.3",
++            "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.1.3.tgz",
++            "integrity": "sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==",
+             "dev": true,
+             "requires": {}
+         },
+Index: public/fonts/fonts.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/fonts/fonts.scss b/public/fonts/fonts.scss
+new file mode 100644
+--- /dev/null	(date 1634923527532)
++++ b/public/fonts/fonts.scss	(date 1634923527532)
+@@ -0,0 +1,2 @@
++/*ROBOTO*/
++
+Index: .idea/projecto.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/projecto.iml b/.idea/projecto.iml
+--- a/.idea/projecto.iml	(revision a25a914ac180327c7af31c474045dff467d020bb)
++++ b/.idea/projecto.iml	(date 1634920732669)
+@@ -1,7 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="WEB_MODULE" version="4">
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="App\" />
++      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
++      <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
++    </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
