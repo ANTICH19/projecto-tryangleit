@@ -37,8 +37,8 @@
     </div>
 
     <!--Cards -->
-    <div id="cards-service" >
-        <div id="card-service">
+    <div id="cards-service" class="row" >
+        <div id="card-service" class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
             <div >
                 <img id="icon-service" src="{{asset('images/yesIDo.png')}}" alt="">
             </div>
@@ -46,28 +46,28 @@
             <h5 id="title-card-services">YES, I DO</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis odio tempore voluptatibus! Alias deleniti labore laborum nulla omnis, voluptates!</p>
         </div>
-        <div id="card-service">
+        <div id="card-service" class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
             <div>
                 <img id="icon-service" src="{{asset('images/cupid.png')}}" alt="">
             </div>
             <h5 id="title-card-services">CUPID</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse itaque nam nisi nostrum nulla quam quibusdam repudiandae voluptas, voluptatibus!</p>
         </div>
-        <div id="card-service">
+        <div id="card-service" class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
             <div>
                 <img id="icon-service" src="{{asset('images/business.png')}}" alt="">
             </div>
             <h5 id="title-card-services">BUSINESS</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur libero nobis quia saepe similique sunt tempore voluptas. Ipsum, obcaecati?</p>
         </div>
-        <div id="card-service">
+        <div id="card-service" class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
             <div>
                 <img id="icon-service" src="{{asset('images/maternity.png')}}" alt="">
             </div>
             <h5 id="title-card-services">MATERNITY</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut exercitationem hic laudantium omnis quasi quidem recusandae saepe suscipit, voluptas voluptate.</p>
         </div>
-        <div id="card-service">
+        <div id="card-service" class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
             <div>
                 <img id="icon-service" src="{{asset('images/baptism.png')}}" alt="">
             </div>
