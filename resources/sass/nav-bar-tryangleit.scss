@@ -26,7 +26,7 @@
 #nav-bar-text{
     margin: 10px 25px 10px 25px;
     font-family: roboto;
-    color: #CED3DB;
+
     text-decoration: none;
     display: inline-block;
 
@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 770px) {
     #back-nav-bar, #front-nav-bar {
-        opacity: 0;
+
         width: 0px;
         height: 0px;
     }

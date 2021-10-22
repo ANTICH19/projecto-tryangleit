@@ -14,28 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 /*Page Home*/
 Route::get('/home', function (){
-    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);
+    return view('pages.home', ['color'=>'#0F1729','i'=>0]);
 });
 
 
 /*Page Blog*/
 Route::get('/blog', function (){
-    return view('pages.blog',['color'=>'#0F1729'],['header_color'=>'transparent']);
+    return view('pages.blog',['color'=>'#0F1729','i'=>0]);
 });
 
 /*Page About*/
 Route::get('/about', function (){
-    return view('pages.about',['color'=>'#0F1729']);
+    return view('pages.about',['color'=>'#0F1729','i'=>0]);
 });
 
 /*Page Services*/
 Route::get('/services', function (){
-    return view('pages.services', ['color'=>'#0F1729']);
+    return view('pages.services', ['color'=>'#0F1729','i'=>2]);
 });
 
 /*Page Portfolio*/
 Route::get('/portfolio', function (){
-    return view('pages.portfolio',['color'=>'#0F1729']);
+    return view('pages.portfolio',['color'=>'#0F1729','i'=>2]);
 });
 
 

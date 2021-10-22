@@ -1,3 +1,5 @@
+<div>
+    <div class="container"></div>
 <div class="d-flex align-items-center flex-column bd-highlight " style="background-color: #0F1729">
     <div class="justify-content-center" id="footer-group-imag">
         <img id="footer-home-imag" src="{{asset('images/instagram.png')}}"  alt="instagram" >
@@ -12,6 +14,7 @@
         <p id="footer-home-text">+351 912 345 678</p>
         <p id="footer-home-text">tryangleit@mail.com</p>
     </div>
+</div>
 </div>
 
 

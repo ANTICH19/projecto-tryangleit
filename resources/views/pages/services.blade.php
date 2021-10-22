@@ -24,8 +24,13 @@
             position: relative;
         }
     </style>
-    <div class="heroimage">
-
+    <div class="heroimage img-fluid">
+        <header style="background-color: transparent">
+            <div style="background-color: transparent">
+                @component('master.header')
+                @endcomponent
+            </div>
+        </header>
     <div class="container">
     <div class="d-flex justify-content-center">
         <h1 id="title">Serviços</h1>
