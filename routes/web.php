@@ -14,31 +14,33 @@ use Illuminate\Support\Facades\Route;
 */
 /*Page Home*/
 Route::get('/home', function (){
-    return view('pages.home', ['color'=>'#0F1729','i'=>0]);
+    return view('pages.home', ['color'=>'#0F1729','header'=>0,'footer'=>1]);
 });
 Route::get('/', function (){
-    return view('pages.home', ['color'=>'#0F1729', 'header_color'=>'blue']);
+    return view('pages.home', ['color'=>'#0F1729', 'header'=>0,'footer'=>1]);
 });
 
 
 /*Page Blog*/
 Route::get('/blog', function (){
-    return view('pages.blog',['color'=>'#0F1729','i'=>0]);
+    return view('pages.blog',['color'=>'#0F1729','header'=>0,'footer'=>1]);
 });
 
 /*Page About*/
 Route::get('/about', function (){
-    return view('pages.about',['color'=>'#0F1729','i'=>0]);
+    return view('pages.about',['color'=>'#0F1729','header'=>0,'footer'=>1]);
 });
 
 /*Page Services*/
 Route::get('/services', function (){
-    return view('pages.services', ['color'=>'#0F1729','i'=>2]);
+    return view('pages.services', ['color'=>'#0F1729','header'=>2,'footer'=>1]);
 });
 
 /*Page Portfolio*/
 Route::get('/portfolio', function (){
-    return view('pages.portfolio',['color'=>'#0F1729','i'=>2]);
+    return view('pages.portfolio',['color'=>'#0F1729','header'=>2,'footer'=>1]);
 });
 
-
+Route::get('/client', function (){
+    return view('pages.login',['color'=>'#0F1729','header'=>1,'footer'=>2]);
+});

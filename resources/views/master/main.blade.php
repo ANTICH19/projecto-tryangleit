@@ -11,7 +11,7 @@
 <div id=" app">
     <div style="background-color: {{$color}}">
 
-        @switch($i)
+        @switch($header)
             @case(1)
             <header style="background-color: transparent">
                 <div style="background-color: transparent">
@@ -33,12 +33,19 @@
             </header>
         @endswitch
 
-
             @yield('content')
 
-
-            @component('master.footer')
-            @endcomponent
+            @switch($footer)
+                @case(1)
+                @component('master.footer')
+                @endcomponent
+                @break
+                @case(2)
+                @break
+                @default
+                @component('master.footer')
+                @endcomponent
+            @endswitch
     </div>
 </div>
 <script src="{{asset('js/nav.js')}}"></script>
