@@ -4,9 +4,11 @@ $font-path-rob: "../fonts/roboto";
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('#{$fa-font-path-rob}/Roboto-Regular.ttf'),
-    url('#{$fa-font-path-rob}/Roboto-Regular.ttf') format("ttf");
+    src: url('#{$font-path-rob}/Roboto-Regular.ttf'),
+    url('#{$font-path-rob}/Roboto-Regular.ttf') format("ttf");
 }
+
+
 
 /*Autumn in November*/
 $font-path-ain: "../fonts/autumn-in-november";
@@ -14,5 +16,5 @@ $font-path-ain: "../fonts/autumn-in-november";
     font-family: 'Autumn In November';
     font-style: normal;
     font-weight: 400;
-    src: url('#{$fa-font-path-ain}/Autumn in November.ttf') format("ttf");
+    src: url('#{$font-path-ain}/Autumn in November.ttf') format("ttf")
 }

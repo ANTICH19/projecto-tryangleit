@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Pagina de Login Feita">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/main.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +197,6 @@
       <workItem from="1634574179395" duration="15802000" />
       <workItem from="1634834226446" duration="14443000" />
       <workItem from="1634920656996" duration="1645000" />
-      <workItem from="1635178885505" duration="130000" />
     </task>
     <task id="LOCAL-00001" summary="v.21.10 - Ivens">
       <created>1634841157442</created>
