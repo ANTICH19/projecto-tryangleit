@@ -13,6 +13,7 @@
     <?php
         }*/
     ?>
+
     <style>
         .heroimage{
             background-image: url({{asset('images/servicesBG.png')}});
@@ -142,5 +143,5 @@
             </div>
         </div>
 </div>
-
+    <link href="{{asset('css/app.css')}}" rel="stylesheet">
 @endsection

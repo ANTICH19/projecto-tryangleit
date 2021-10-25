@@ -10,7 +10,6 @@
 </head>
 <div id=" app">
     <div style="background-color: {{$color}}">
-
         @switch($header)
             @case(1)
             <header>
