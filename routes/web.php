@@ -56,3 +56,8 @@ Route::get('/home_client_albums', function (){
 Route::get('/home_client_gallery', function (){
     return view('/pages/client_gallery');
 });
+
+/*Page Home_client_review*/
+Route::get('/home_client_rating', function (){
+    return view('/pages/rating-client');
+});

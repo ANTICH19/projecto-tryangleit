@@ -111,10 +111,11 @@
 </div>
 
 <div>
-    <div style="padding-left: 100px">
+    <div style="padding-left: 200px">
         @component('master.header')
         @endcomponent
     </div>
+    <br>
     <div>
         @yield('content')
     </div>

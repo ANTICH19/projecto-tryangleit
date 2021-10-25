@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Home client">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/client_gallery.blade.php" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - As minha galarias e vizualizador de galarias">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635194901031</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="v.21.11 - As minha galarias e vizualizador de galarias">
+      <created>1635196314970</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635196314970</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +326,8 @@
     <MESSAGE value="v.21.11 - Pagina de Login Feita" />
     <MESSAGE value="v.25.10 - Ivens" />
     <MESSAGE value="v.21.11 - Home client" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Home client" />
+    <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - As minha galarias e vizualizador de galarias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
