@@ -40,7 +40,24 @@ Route::get('/services', function (){
 Route::get('/portfolio', function (){
     return view('pages.portfolio',['color'=>'#0F1729','header'=>2,'footer'=>1]);
 });
-
+/*Page Login*/
 Route::get('/client', function (){
     return view('pages.login',['color'=>'#0F1729','header'=>1,'footer'=>2]);
+});
+/*Page Home client*/
+Route::get('/home_client', function (){
+    return view('/master/client_master');
+});
+/*Page Home_client_albums*/
+Route::get('/home_client_albums', function (){
+    return view('/pages/client_albums');
+});
+/*Page Home_client_gallery's*/
+Route::get('/home_client_gallery', function (){
+    return view('/pages/client_gallery');
+});
+
+/*Page Home_client_review*/
+Route::get('/home_client_rating', function (){
+    return view('/pages/rating-client');
 });
