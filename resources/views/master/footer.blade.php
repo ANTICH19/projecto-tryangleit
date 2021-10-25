@@ -1,4 +1,4 @@
-<div style="background-color: #0F1729">
+<div style="background-color: #0F1729;">
     <div class="container text-white">
         <div class="row">
             <div class="col">
@@ -18,24 +18,22 @@
                     Follow Us!
                 </h2>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-xl-4">
                         <img src="{{asset('images/instagram.png')}}">
                     </div>
-                    <div class="col">
+                    <div class="col-xl-4">
                         <img src="{{asset('images/linkedin.png')}}">
                     </div >
-                    <div class="col" style="padding-right: 50%">
+                    <div class="col-xl-4" style="padding-right: 50%">
                         <img src="{{asset('images/pinterest.png')}}" >
                     </div>
-                </div>
-                <div class="row" style="margin-top: 10px">
-                    <div class="col">
+                    <div class="col-xl-4">
                         <img src="{{asset('images/vimeo.png')}}">
                     </div>
-                    <div class="col">
+                    <div class="col-xl-4">
                         <img src="{{asset('images/youtube.png')}}">
                     </div>
-                    <div class="col" style="padding-right: 50%">
+                    <div class="col-xl-4" style="padding-right: 50%">
                         <img src="{{asset('images/casamentos.png')}}">
                     </div>
                 </div>
@@ -43,10 +41,9 @@
             <div class="col">
                 <div class="fb-page"
                      data-href="https://www.facebook.com/tryangleit/"
-                     data-width="380"
+                     data-width="500"
                      data-hide-cover="false"
-                     data-show-facepile="false">
-
+                     data-show-facepile="false" >
                 </div>
             </div>
         </div>

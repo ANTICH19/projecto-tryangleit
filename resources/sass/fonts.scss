@@ -1,17 +1,16 @@
 /*ROBOTO*/
-$font-path-rob: "../fonts/roboto";
+$font-path-rob: "/public/fonts/roboto";
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('#{$font-path-rob}/Roboto-Regular.ttf'),
-    url('#{$font-path-rob}/Roboto-Regular.ttf') format("ttf");
+    src: url('#{$font-path-rob}/Roboto-Regular.ttf') format("ttf");
 }
 
 
 
 /*Autumn in November*/
-$font-path-ain: "../fonts/autumn-in-november";
+$font-path-ain: "/public/fonts/autumn-in-november";
 @font-face {
     font-family: 'Autumn In November';
     font-style: normal;
