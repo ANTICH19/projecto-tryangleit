@@ -52,3 +52,7 @@ Route::get('/home_client', function (){
 Route::get('/home_client_albums', function (){
     return view('/pages/client_albums');
 });
+/*Page Home_client_gallery's*/
+Route::get('/home_client_gallery', function (){
+    return view('/pages/client_gallery');
+});
