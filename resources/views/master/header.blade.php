@@ -9,8 +9,8 @@
         <a id="nav-bar-text" href="/portfolio" onclick="por()">Portefolio</a>
         <a id="nav-bar-text" href="/blog" onclick="blo()">Blog</a>
         <a id="nav-bar-text" href="/about" onclick="sob()">Sobre</a>
-        <a id="nav-bar-imag" href="/home" onclick="yyy()">
-            <img id="imag-yyy" src="{{URL::asset('images/yTryangleitWhite.png')}}" alt="yyyy">
+        <a id="nav-bar-imag" href="/home"  onclick="yyy()">
+            <img id="imag-yyy" src="{{URL::asset('images/yTryangleitWhite.png')}}" alt="y">
         </a>
         <a id="nav-bar-text" href="/services" onclick="ser()">Serviços</a>
         <a id="nav-bar-text" href="/client" onclick="cli()">Área Cliente</a>

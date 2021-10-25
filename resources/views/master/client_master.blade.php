@@ -12,15 +12,15 @@
 
     .container_custom {
         position: relative;
-        width: 40%;
-        height: 965px;
+        width: 38.5%;
+        height: auto;
 
 
     }
     .container_custom img {
-        width: 40%;
-       opacity: 0.5;
-        height: 969px;
+        width: 100%;
+        opacity: 0.5;
+        height: 100%;
     }
     .container_custom .btn1 {
         position: absolute;
@@ -92,11 +92,14 @@
     }
 
     #right-col{
-        border-right: 6px solid white;
+        border-right: 3px solid white;
+    }
+    #left_col{
+        border-right: 3px solid white;
     }
 
 </style>
-<body style="background-color: #0F1729">
+<body style="background-color: #0F1729;width: 1900px">
 <div style="display: inline-flex">
 <div class="container_custom">
     <img src="{{'images/bridge.jpg'}}" alt="foto" style="width:100%">
@@ -107,10 +110,12 @@
     <a class="btn3" href="#" type="button">Avaliações</a>
 </div>
 
-<div style="padding-left: 150px">
-                @component('master.header')
-                @endcomponent
-    <div class="container" style="padding-top: 50px">
+<div>
+    <div style="padding-left: 100px">
+        @component('master.header')
+        @endcomponent
+    </div>
+    <div>
         @yield('content')
     </div>
 </div>
