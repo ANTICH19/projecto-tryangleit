@@ -1,30 +1,18 @@
 @extends('master.main')
 
 @section('content')
-    <?php
-        /*$value = 1;
-        if ($value == 1){
-            ?> <div style="background-image: url('{{asset('images/servicesBG.png')}}');
-        position: relative;
-        background-size: 100% auto;
-        ;background-repeat: no-repeat" class="container">
-
-    </div>
-    <?php
-        }*/
-    ?>
     <style>
         .heroimage{
             background-image: url({{asset('images/servicesBG.png')}});
             background-color: #cccccc;
-            height: 850px;
+            height: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
         }
     </style>
-    <div class="heroimage img-fluid">
+    <div class="heroimage img-fluid" style="padding-bottom: 12%">
         <header style="background-color: transparent">
             <div style="background-color: transparent">
                 @component('master.header')

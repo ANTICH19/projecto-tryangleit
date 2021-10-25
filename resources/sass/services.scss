@@ -1,8 +1,6 @@
 /*SERVICES*/
-
-
 #card-service {
-    font-family: Roboto, serif;
+    font-family: 'Roboto', serif;
     text-align: center;
     background-color: #CED3DB23;
     color: #CED3DB;
@@ -23,20 +21,15 @@
     margin: 10px 0px 20px 0px;
 }
 #form-services {
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: #CED3DB;
 
 }
 
 #cards-service{
     padding-bottom: 200px;
-    display: flex;
 }
-@media all and (max-width: 1200px) {
-    #cards-service{
-        display: block;
-    }
-}
+
 
 
 /*END SERVICES*/

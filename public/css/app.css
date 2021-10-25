@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @charset "UTF-8";
 /*ROBOTO*/
 @font-face {
@@ -11328,6 +11329,10 @@ textarea.form-control-lg {
   #footer-home-imag {
     width: 50%;
   }
+
+  .col-sm-12 {
+    text-align: center;
+  }
 }
 /*END FOOTER HOME*/
 /*NAV BAR*/
@@ -11431,7 +11436,7 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 20px;
   border: 2px solid #ced3db;
   padding: 5px;
-  width: 65%;
+  width: 70%;
   margin-bottom: 20px;
 }
 
@@ -11451,8 +11456,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #CED3DB23;
   padding: 50px 10px;
   border-radius: 20px;
-  margin: 3% 4%;
-  flex-direction: column;
+  margin: 3% 2%;
   text-align: center;
 }
 
@@ -11461,7 +11465,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 92%;
     text-align: center;
     background-color: #CED3DB23;
-    border-radius: 20px;
+    border-radius: 30px;
   }
 
   #imag-blog {
@@ -11470,24 +11474,14 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 /*END BLOG*/
-/*SOBRE*/
-#imag-about {
-  width: 100%;
-  border-radius: 50px;
-}
-
-#about-tryangleit {
-  width: 40%;
-  margin: 20px;
-}
-
+/*About*/
 #text-about {
   color: #CED3DB;
   font-family: Roboto;
   text-align: center;
 }
 
-/*END SOBRE*/
+/*END About*/
 /*HOME*/
 #imag-home {
   width: 60%;
@@ -11496,13 +11490,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 770px) {
   #imag-home {
-    width: 40%;
+    width: 50%;
   }
 }
 /*END HOME*/
 /*SERVICES*/
 #card-service {
-  font-family: Roboto, serif;
+  font-family: "Roboto", serif;
   text-align: center;
   background-color: #CED3DB23;
   color: #CED3DB;
@@ -11526,20 +11520,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #form-services {
-  font-family: Roboto;
+  font-family: "Roboto";
   color: #CED3DB;
 }
 
 #cards-service {
   padding-bottom: 200px;
-  display: flex;
 }
 
-@media all and (max-width: 1200px) {
-  #cards-service {
-    display: block;
-  }
-}
 /*END SERVICES*/
 /*Common File*/
 #title {

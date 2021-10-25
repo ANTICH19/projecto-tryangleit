@@ -4,7 +4,7 @@
     border-radius: 20px;
     border: 2px solid #ced3db;
     padding: 5px;
-    width: 65%;
+    width: 70%;
     margin-bottom: 20px
 }
 #text-blog{
@@ -12,7 +12,7 @@
     color: #CED3DB;
     font-family: Roboto;
 }
-#bar-blog{
+#bar-blog {
     border: 1px solid #CED3DB;
     margin: 20px 40px 20px 40px;
     border-radius: 2px;
@@ -21,18 +21,17 @@
         background-color: #CED3DB23;
         padding: 50px 10px;
         border-radius: 20px;
-        margin: 3% 4%;
-        flex-direction: column;
+        margin: 3% 2%;
         text-align: center;
     }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px){
     #post-blog{
         width: 92%;
         text-align: center;
         background-color: #CED3DB23;
-        border-radius: 20px;
+        border-radius: 30px;
     }
-    #imag-blog {
+    #imag-blog{
         margin: 20px 0px 20px 0px;
         width: 300px;
     }
