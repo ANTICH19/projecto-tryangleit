@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+/*ROBOTO*/
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/public/fonts/roboto/Roboto-Regular.ttf") format("ttf");
+}
+/*Autumn in November*/
+@font-face {
+  font-family: "Autumn In November";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/public/fonts/autumn-in-november/Autumn in November.ttf") format("ttf");
+}
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11462,8 +11476,8 @@ body::-webkit-scrollbar-thumb:hover {
 /*END SOBRE*/
 /*HOME*/
 #imag-home {
-  width: 80%;
-  margin: 25% 10% 25% 10%;
+  width: 60%;
+  margin: 15% 10% 15% 10%;
 }
 
 @media only screen and (max-width: 770px) {
