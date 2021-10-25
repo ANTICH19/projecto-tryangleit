@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Pagina de Login Feita">
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.25.10 - Ivens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/autumn-in-november/Autumn in November.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/autumn-in-november/Autumn-in-November.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634939363569</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v.25.10 - Ivens">
+      <created>1635187317187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635187317187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v.21.10 - Ivens" />
     <MESSAGE value="v.21.11 - Pagina de Login Feita" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Pagina de Login Feita" />
+    <MESSAGE value="v.25.10 - Ivens" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.25.10 - Ivens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
