@@ -58,7 +58,7 @@
         }
     </style>
 
-    <div class="container" style="margin-top: 5%; padding-bottom: 7%">
+    <div class="container" style="margin-top: 5%; padding-bottom: 8.7%">
         <div class="login_container">
         <div class="row">
             <div class="col">
