@@ -11323,13 +11323,14 @@ textarea.form-control-lg {
   width: 585px;
   height: 8px;
   border-radius: 100px;
-  background-color: transparent;
+  color: #CED3DB23;
 }
 
 #front-nav-bar {
   width: 38px;
   height: 100%;
   border-radius: 100px;
+  color: #CED3DB;
 }
 
 #nav-bar-group-text {
@@ -11349,6 +11350,10 @@ textarea.form-control-lg {
   font-family: roboto;
   text-decoration: none;
   display: inline-block;
+}
+
+#nav-bar-text:link, #nav-bar-text:visited, #nav-bar-text:hover, #nav-bar-text:active {
+  color: #CED3DB;
 }
 
 @media only screen and (max-width: 770px) {
@@ -11425,7 +11430,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 770px) {
   #post-blog {
-    margin-left: 8%;
+    width: 92%;
     text-align: center;
     background-color: #CED3DB23;
     border-radius: 20px;
@@ -11433,7 +11438,7 @@ body::-webkit-scrollbar-thumb:hover {
 
   #imag-blog {
     margin: 20px 0px 20px 0px;
-    width: 200px;
+    width: 300px;
   }
 }
 /*END BLOG*/
