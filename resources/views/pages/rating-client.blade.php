@@ -33,7 +33,7 @@
     </style>
 
     <div class="container text-white" style="background-color: #353d4f;margin-left: 150px;border-radius: 20px">
-        <div class="row" style="padding-top: 20px">
+        <div class="row" style="padding-top: 40px">
             <div class="col">
               <input class="checkbox-custom" type="checkbox">
                 <h5>Muito Insatisfeito</h5>

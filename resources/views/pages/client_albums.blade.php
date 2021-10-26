@@ -1,6 +1,13 @@
 @extends('/master/client_master')
 @section('content')
-    <div class="container" style="padding-left: 100px">
+    <style>
+       .img-custom{
+           height: 120px;
+           width: auto;
+           border-radius: 30px;
+       }
+    </style>
+    <div class="container" style="padding-left: 100px;padding-bottom: 33px">
     <div class="row">
         <div class="col">
             <img src="{{'images/weding.jpg'}}" alt="cover" style="width: 150px; height: auto; border-radius: 40px">
@@ -24,40 +31,50 @@
                         Fotos
                     </h2>
                 </div>
-                <div class="row">
+                <div class="row" style="padding-left: 17%; padding-right: 10%">
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 10px">
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                 </div>
-                <div class="row" style="margin-top: 10px">
+                <div class="row" style="margin-top: 15px;padding-left: 17%; padding-right: 10%">
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                 </div>
-
+                <div class="row" style="margin-top: 15px ;padding-left: 17%; padding-right: 10%">
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 15px;padding-left: 17%; padding-right: 10%">
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col" id="left-col">
@@ -67,43 +84,49 @@
                         Videos
                     </h2>
                 </div>
-                <div class="row" style="padding-left: 10px">
+                <div class="row" style="padding-left: 17%; padding-right: 10%">
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 10px">
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
-                    </div>
-                    <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                 </div>
-                <div class="row" style="margin-top: 10px">
+                <div class="row" style="margin-top: 15px;padding-left: 17%; padding-right: 10%">
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                     <div class="col">
-                        <img src="{{'images/weding.jpg'}}" class="img-fluid">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
                     </div>
                 </div>
-
-            </div>
-        </div>
-        </div>
-    </div>
+                <div class="row" style="margin-top: 15px ;padding-left: 17%; padding-right: 10%">
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 15px;padding-left: 17%; padding-right: 10%">
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                    <div class="col">
+                        <img src="{{'images/weding.jpg'}}" class="img-custom">
+                    </div>
+                </div>
     </div>
 @endsection

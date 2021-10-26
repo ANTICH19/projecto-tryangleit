@@ -24,6 +24,22 @@
             background-size: cover;
             position: relative;
         }
+        #title{
+            font-family: 'Autumn in November', sans-serif;
+            font-size: 70px;
+        }
+        .input-custom{
+            border-radius: 10px;
+            border-style: none;
+        }
+        .input-custom:focus{
+            outline: none   ;
+        }
+        .img-custom{
+            display: block;
+            max-width: 1%;
+            height: 10%;
+        }
     </style>
     <div class="heroimage img-fluid">
         <header style="background-color: transparent">
@@ -79,13 +95,25 @@
     </div>
     </div>
     </div>
-<div style="background-color: #0F1729" class="container" >
-    <!--Form-->
     <div class="d-flex justify-content-center text-white">
-        <h1 id="title-services">Faça o seu orçamento</h1>
+        <h1 id="title">Faça o seu orçamento</h1>
     </div>
-
-    <div id="form-services">
+    <div style="background-color: #0F1729; margin-top: 5%" class="container text-light" >
+    <!--Form-->
+        <div class="row">
+        <div class="col-3" style="background-color: #5b6375; border-radius: 20px">
+            <div class="row">
+            <img src="{{'/images/option.png'}}" class="img-responsive">
+            </div>
+            <div class="row">
+            <img src="{{'/images/user.png'}}" class="img-custom">
+            </div>
+                <div class="row ">
+            <img src="{{'/images/check.png'}}" class="img-custom">
+                </div>
+        </div>
+        <div class="col-9">
+    <div id="form-services" style="margin-top: 10%">
         <div id="line-form-service" style="background-color: #CED3DB23;">
             <div class="d-flex justify-content-around">
                 <div>
@@ -112,36 +140,43 @@
             </div>
         </div>
     </div>
-        <div id="line-form-service">
+        <div id="line-form-service" style="margin-top: 20px">
             <div>
                 <div class="d-flex justify-content-center">
                      <div class="d-flex justify-content-center">
                          <p>Primeiro Nome</p>
-                         <input type="text">
+                         <input type="text" class="input-custom">
                      </div>
                     <div class="d-flex justify-content-center">
                         <p>E-mail</p>
-                        <input type="text">
+                        <input type="text"  class="input-custom">
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center" style="margin-top: 10px">
                     <div class="d-flex justify-content-center">
                         <p>Último Nome</p>
-                        <input type="text">
+                        <input type="text"  class="input-custom">
                     </div>
                     <div class="d-flex justify-content-center">
                         <p>Nº Telemóvel</p>
-                        <input type="text">
+                        <input type="number"  class="input-custom">
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center text-light" style="margin-bottom: 10%">
                 <h3>Total - 0€</h3>
                 <button>SUBMETER ORÇAMENTO</button>
             </div>
         </div>
 </div>
+</div>
+    </div>
+
+
+
+
+
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
 @endsection

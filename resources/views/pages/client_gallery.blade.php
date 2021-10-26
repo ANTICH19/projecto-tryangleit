@@ -9,7 +9,7 @@
         text-decoration: none;
     }
     </style>
-    <div class="container" style="padding-left: 150px; padding-top: 25px">
+    <div class="container" style="padding-left: 150px; padding-top: 25px; padding-bottom: 500px">
 
         <div class="row text-white">
         <h4><b>As minhas Galerias</b></h4>

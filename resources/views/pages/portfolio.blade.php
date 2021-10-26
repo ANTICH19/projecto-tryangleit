@@ -6,7 +6,7 @@
         .heroimage{
             background-image: url({{asset('images/portfolioBG.png')}});
             background-color: #cccccc;
-            height: 940px;
+            height: 947px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
