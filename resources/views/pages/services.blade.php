@@ -102,10 +102,10 @@
     </div>
     </div>
     </div>
-    <div class="d-flex justify-content-center text-white">
+    <div class="d-flex justify-content-center text-white" style="margin-top: 10px">
         <h1 id="title">Faça o seu orçamento</h1>
     </div>
-    <div style="background-color: #353d4f; margin-top: 5%; border-radius: 30px" class="container text-light" >
+    <div style="background-color: #353d4f; margin-top: 6%; border-radius: 30px; margin-bottom: 100px" class="container text-light" >
     <!--Form-->
         <div class="row">
         <div class="col-3" style="background-color: #5b6375; border-radius: 20px">

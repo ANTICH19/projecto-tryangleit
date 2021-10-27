@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - As minha galarias e vizualizador de galarias">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Fomulario de Avaliação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635196314970</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v.21.11 - Fomulario de Avaliação">
+      <created>1635199264912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635199264912</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,17 +332,7 @@
     <MESSAGE value="v.25.10 - Ivens" />
     <MESSAGE value="v.21.11 - Home client" />
     <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - As minha galarias e vizualizador de galarias" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/pages/services.blade.php</url>
-          <line>121</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="v.21.11 - Fomulario de Avaliação" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Fomulario de Avaliação" />
   </component>
 </project>
