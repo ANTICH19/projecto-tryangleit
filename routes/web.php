@@ -63,3 +63,8 @@ Route::get('/home_client_rating', function (){
 Route::get('/home_client_wedding', function (){
     return view('/pages/form-wedding');
 });
+
+/*Page Home_client_form-list*/
+Route::get('/home_client_form_list', function (){
+    return view('/pages/forms-client');
+});

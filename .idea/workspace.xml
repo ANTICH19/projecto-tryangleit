@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Fomulario de Avaliação">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635351443376</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="v.21.11 - Fomulario de Avaliação">
+      <created>1635356684720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635356684720</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

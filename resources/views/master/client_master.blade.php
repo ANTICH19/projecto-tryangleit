@@ -106,9 +106,9 @@
     <img src="{{'images/bridge.jpg'}}" alt="foto" style="width:100%">
     <a class="btn1" href="{{'/home_client_gallery'}}" type="button" >Os meus albuns</a>
     <br>
-    <a class="btn2" href="{{'/home_client_gallery'}}" type="button">Formulários</a>
+    <a class="btn2" href="{{'/home_client_form_list'}}" type="button">Formulários</a>
     <br>
-    <a class="btn3" href="#" type="button">Avaliações</a>
+    <a class="btn3" href="{{'/home_client_rating'}}" type="button">Avaliações</a>
 </div>
 
 <div>
