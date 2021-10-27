@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v12.0" nonce="J9vSv2Ws"></script>
+    <link href="http://fonts.cdnfonts.com/css/autumn-in-november" rel="stylesheet">
     <title>Tryangleit</title>
 </head>
 <div id=" app">

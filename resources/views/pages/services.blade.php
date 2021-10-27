@@ -24,6 +24,29 @@
             background-size: cover;
             position: relative;
         }
+        #title{
+            font-family: 'Autumn in November', sans-serif;
+            font-size: 70px;
+        }
+        .input-custom{
+            border-radius: 10px;
+            border-style: none;
+        }
+        .input-custom:focus{
+            outline: none   ;
+        }
+        .img-custom{
+            height: 100px;
+            width: auto;
+        }
+        .custom-btn{
+            background-color: #ced3db;
+            border-radius: 30px;
+            border-style: none;
+            color: #0F1729;
+            font-size: 20px;
+            font-weight: bold;
+        }
     </style>
     <div class="heroimage img-fluid">
         <header style="background-color: transparent">
@@ -79,14 +102,26 @@
     </div>
     </div>
     </div>
-<div style="background-color: #0F1729" class="container" >
-    <!--Form-->
     <div class="d-flex justify-content-center text-white">
-        <h1 id="title-services">Faça o seu orçamento</h1>
+        <h1 id="title">Faça o seu orçamento</h1>
     </div>
-
-    <div id="form-services">
-        <div id="line-form-service" style="background-color: #CED3DB23;">
+    <div style="background-color: #353d4f; margin-top: 5%; border-radius: 30px" class="container text-light" >
+    <!--Form-->
+        <div class="row">
+        <div class="col-3" style="background-color: #5b6375; border-radius: 20px">
+            <div class="row" style="margin-right: 25%; margin-left: 25%; padding-bottom: 30px">
+            <img src="{{'/images/option.png'}}" class="img-custom">
+            </div>
+            <div class="row" style="margin-right: 25%; margin-left: 25%; padding-bottom: 50px">
+            <img src="{{'/images/user.png'}}" class="img-custom">
+            </div>
+                <div class="row" style="margin-right: 25%; margin-left: 25% ; padding-bottom: 30px">
+            <img src="{{'/images/check.png'}}" class="img-custom">
+                </div>
+        </div>
+        <div class="col-9">
+    <div id="form-services" style="margin-top: 10px">
+        <div id="line-form-service" style="background-color: #353d4f;">
             <div class="d-flex justify-content-around">
                 <div>
                     <p>YES, I DO</p>
@@ -110,38 +145,43 @@
                 </div>
 
             </div>
+            <hr>
         </div>
     </div>
         <div id="line-form-service">
             <div>
                 <div class="d-flex justify-content-center">
-                     <div class="d-flex justify-content-center">
-                         <p>Primeiro Nome</p>
-                         <input type="text">
+                     <div class="d-flex justify-content-start"style=" margin-right: 30%" >
+                         <p style="margin-right: 10px">Primeiro Nome</p>
+                         <input type="text" class="input-custom">
                      </div>
                     <div class="d-flex justify-content-center">
-                        <p>E-mail</p>
-                        <input type="text">
+                        <p style="margin-right: 10px">E-mail</p>
+                        <input type="text"  class="input-custom">
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center" style="margin-top: 10px">
+                    <div class="d-flex justify-content-start" style=" margin-right: 30%; margin-left: 8.5%">
                         <p>Último Nome</p>
-                        <input type="text">
+                        <input type="text" style="padding-right: 20px" class="input-custom">
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-end">
                         <p>Nº Telemóvel</p>
-                        <input type="text">
+                        <input type="number" style="padding-right: 10px" class="input-custom">
                     </div>
                 </div>
             </div>
         </div>
+            <hr>
         <div>
-            <div class="d-flex justify-content-center">
-                <h3>Total - 0€</h3>
-                <button>SUBMETER ORÇAMENTO</button>
+            <div class="d-flex justify-content-center text-light" style="margin-bottom: 10%; margin-top: 10%">
+                <h3 style="margin-right: 40px">Total - 0€</h3>
+                <button type="submit" class="custom-btn">SUBMETER ORÇAMENTO</button>
             </div>
         </div>
 </div>
+</div>
+    </div >
+
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
 @endsection
