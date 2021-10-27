@@ -103,7 +103,7 @@
 <body style="background-color: #0F1729;width: 1900px">
 <div style="display: inline-flex">
 <div class="container_custom">
-    <img src="{{'images/bridge.jpg'}}" alt="foto" style="width:100%">
+    <img src="{{'images/bridge.jpg'}}" alt="foto"style="margin-bottom: 10px">
     <a class="btn1" href="{{'/home_client_gallery'}}" type="button" >Os meus albuns</a>
     <br>
     <a class="btn2" href="{{'/home_client_form_list'}}" type="button">Formulários</a>

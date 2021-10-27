@@ -7,7 +7,7 @@
            border-radius: 30px;
        }
     </style>
-    <div class="container" style="padding-left: 100px;padding-bottom: 33px">
+    <div class="container" style="margin-left:19px;padding-left: 50px ;padding-bottom: 33px">
     <div class="row">
         <div class="col">
             <img src="{{'images/weding.jpg'}}" alt="cover" style="width: 150px; height: auto; border-radius: 40px">

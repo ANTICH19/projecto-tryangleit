@@ -153,6 +153,7 @@
             <hr>
         </div>
     </div>
+            <form>
         <div id="line-form-service">
             <div>
                 <div class="d-flex justify-content-center">
@@ -184,6 +185,7 @@
                 <button type="submit" class="custom-btn">SUBMETER ORÇAMENTO</button>
             </div>
         </div>
+            </form>
 </div>
 </div>
     </div >

@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Adição de lista de formulários">
-      <change afterPath="$PROJECT_DIR$/public/images/user-services.png" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.27.11 - Style formulário e alinhamento">
+      <change afterPath="$PROJECT_DIR$/public/images/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/option.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/option.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/client_albums.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/client_albums.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -339,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635360735943</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="v.27.11 - Style formulário e alinhamento">
+      <created>1635365276644</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635365276644</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +366,7 @@
     <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
     <MESSAGE value="v.21.11 - Fomulario de Avaliação" />
     <MESSAGE value="v.21.11 - Adição de lista de formulários" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Adição de lista de formulários" />
+    <MESSAGE value="v.27.11 - Style formulário e alinhamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.27.11 - Style formulário e alinhamento" />
   </component>
 </project>
