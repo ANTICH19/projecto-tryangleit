@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - As minha galarias e vizualizador de galarias">
-      <change afterPath="$PROJECT_DIR$/public/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/option.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/form-wedding.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_14__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_44__Changes_.xml" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.26.11 - Varias alterações ao o website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/client_albums.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/client_albums.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/client_gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/client_gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/customer_reviews.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/portfolio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -228,7 +208,8 @@
       <workItem from="1634834226446" duration="14443000" />
       <workItem from="1634920656996" duration="1645000" />
       <workItem from="1635266690990" duration="3412000" />
-      <workItem from="1635272732761" duration="12003000" />
+      <workItem from="1635272732761" duration="12560000" />
+      <workItem from="1635295856821" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="v.21.10 - Ivens">
       <created>1634841157442</created>
@@ -328,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635196314970</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v.26.11 - Varias alterações ao o website">
+      <created>1635286665513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635286665513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +340,7 @@
     <MESSAGE value="v.25.10 - Ivens" />
     <MESSAGE value="v.21.11 - Home client" />
     <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - As minha galarias e vizualizador de galarias" />
+    <MESSAGE value="v.26.11 - Varias alterações ao o website" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.26.11 - Varias alterações ao o website" />
   </component>
 </project>

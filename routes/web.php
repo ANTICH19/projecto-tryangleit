@@ -19,8 +19,6 @@ Route::get('/home', function (){
 Route::get('/', function (){
     return view('pages.home', ['color'=>'#0F1729', 'header'=>0,'footer'=>1]);
 });
-
-
 /*Page Blog*/
 Route::get('/blog', function (){
     return view('pages.blog',['color'=>'#0F1729','header'=>0,'footer'=>1]);
