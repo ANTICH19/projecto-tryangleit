@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Fomulario de Avaliação">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.21.11 - Adição de lista de formulários">
+      <change afterPath="$PROJECT_DIR$/public/images/user-services.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/client_master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/option.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/option.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/nav-bar-tryangleit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/forms-client.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/rating-client.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,11 +181,11 @@
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leandro\Desktop\projecto\public\images" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public\images" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage\app\public" />
-      <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -324,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635356684720</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v.21.11 - Adição de lista de formulários">
+      <created>1635360735943</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635360735943</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +364,7 @@
     <MESSAGE value="v.21.11 - Home client" />
     <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
     <MESSAGE value="v.21.11 - Fomulario de Avaliação" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Fomulario de Avaliação" />
+    <MESSAGE value="v.21.11 - Adição de lista de formulários" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.21.11 - Adição de lista de formulários" />
   </component>
 </project>

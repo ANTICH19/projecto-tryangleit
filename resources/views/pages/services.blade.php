@@ -36,8 +36,13 @@
             outline: none   ;
         }
         .img-custom{
-            height: 100px;
-            width: auto;
+            user-drag: none;
+            -webkit-user-drag: none;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+
         }
         .custom-btn{
             background-color: #ced3db;
@@ -48,14 +53,14 @@
             font-weight: bold;
         }
     </style>
-    <div class="heroimage img-fluid">
+    <div class="heroimage img-fluid" style="padding-bottom: 10%">
         <header style="background-color: transparent">
             <div style="background-color: transparent">
                 @component('master.header')
                 @endcomponent
             </div>
         </header>
-    <div class="container">
+    <div class="container" style="margin-top: 2%; margin-bottom: 3%">
     <div class="d-flex justify-content-center">
         <h1 id="title">Serviços</h1>
     </div>
@@ -108,21 +113,21 @@
     <div style="background-color: #353d4f; margin-top: 6%; border-radius: 30px; margin-bottom: 100px" class="container text-light" >
     <!--Form-->
         <div class="row">
-        <div class="col-3" style="background-color: #5b6375; border-radius: 20px">
+        <div class="col-2" style="background-color: #5b6375; border-radius: 20px">
             <div class="row" style="margin-right: 25%; margin-left: 25%; padding-bottom: 30px">
-            <img src="{{'/images/option.png'}}" class="img-custom">
+            <img src="{{'/images/option.png'}}" class="img-custom" style="margin-top: 15%">
             </div>
-            <div class="row" style="margin-right: 25%; margin-left: 25%; padding-bottom: 50px">
-            <img src="{{'/images/user.png'}}" class="img-custom">
+            <div class="row" style="margin-right: 25%; margin-left: 25%; padding-bottom: 50px;margin-top: 15%">
+            <img src="{{'/images/user-services.png'}}" class="img-custom">
             </div>
-                <div class="row" style="margin-right: 25%; margin-left: 25% ; padding-bottom: 30px">
+                <div class="row" style="margin-right: 25%; margin-left: 25%;margin-top: 15%">
             <img src="{{'/images/check.png'}}" class="img-custom">
                 </div>
         </div>
         <div class="col-9">
     <div id="form-services" style="margin-top: 10px">
         <div id="line-form-service" style="background-color: #353d4f;">
-            <div class="d-flex justify-content-around">
+            <div class="d-flex justify-content-around" style="margin-bottom: 40px">
                 <div>
                     <p>YES, I DO</p>
                     <input type="checkbox">
@@ -161,13 +166,13 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center" style="margin-top: 10px">
-                    <div class="d-flex justify-content-start" style=" margin-right: 30%; margin-left: 8.5%">
-                        <p>Último Nome</p>
-                        <input type="text" style="padding-right: 20px" class="input-custom">
+                    <div class="d-flex justify-content-center" style=" margin-right: 27%">
+                        <p style="margin-right: 5px">Último Nome</p>
+                        <input type="text" class="input-custom">
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <p>Nº Telemóvel</p>
-                        <input type="number" style="padding-right: 10px" class="input-custom">
+                    <div class="d-flex justify-content-start">
+                        <p>Telemóvel</p>
+                        <input type="number" style="margin-left: 7%" class="input-custom">
                     </div>
                 </div>
             </div>

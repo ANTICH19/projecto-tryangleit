@@ -14,10 +14,8 @@
         @switch($header)
             @case(1)
             <header>
-                <div>
                     @component('master.header')
                     @endcomponent
-                </div>
             </header>
             @break
             @case(2)
