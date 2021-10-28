@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
-    <title>Document</title>
+    <link href="http://fonts.cdnfonts.com/css/autumn-in-november" rel="stylesheet">
+    <title>Area de Cleinte</title>
 </head>
 <style>
 
@@ -102,12 +103,12 @@
 <body style="background-color: #0F1729;width: 1900px">
 <div style="display: inline-flex">
 <div class="container_custom">
-    <img src="{{'images/bridge.jpg'}}" alt="foto" style="width:100%">
+    <img src="{{'images/bridge.jpg'}}" alt="foto"style="margin-bottom: 10px">
     <a class="btn1" href="{{'/home_client_gallery'}}" type="button" >Os meus albuns</a>
     <br>
-    <a class="btn2" href="{{'/home_client_gallery'}}" type="button">Formulários</a>
+    <a class="btn2" href="{{'/home_client_form_list'}}" type="button">Formulários</a>
     <br>
-    <a class="btn3" href="#" type="button">Avaliações</a>
+    <a class="btn3" href="{{'/home_client_rating'}}" type="button">Avaliações</a>
 </div>
 
 <div>

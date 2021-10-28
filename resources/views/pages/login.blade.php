@@ -56,6 +56,10 @@
             -webkit-user-select: none;
             -ms-user-select: none;
         }
+        #title{
+            font-family: 'Autumn in November', sans-serif;
+            font-size: 70px;
+        }
     </style>
 
     <div class="container" style="margin-top: 5%; padding-bottom: 8.7%">
@@ -67,10 +71,10 @@
             <div class="col">
                 <div class="container">
                 <div style="font-size: larger;color: white" class="d-flex justify-content-center mt-5">
-                    <h1>Login</h1>
+                    <h1 id="title">Login</h1>
                 </div>
                     <form>
-                    <div class="row" style="margin-right: 20%;margin-left: 20%;margin-top: 21%">
+                    <div class="row" style="margin-right: 20%;margin-left: 20%;margin-top: 10%">
                         <img src="{{asset('images/user.png')}}" class="inputimg">
                         <input type="text" id="user" class="custominput" placeholder="Username" style="padding-top: 10px">
                     </div>
@@ -78,7 +82,7 @@
                         <img src="{{asset('images/password.png')}}" class="inputimg">
                         <input type="password" class="custominput" placeholder="Password" style="padding-top: 10px">
                     </div>
-                        <div class="row d-flex justify-content-center" style="margin-left: 30%;margin-right: 30%; margin-top: 20%">
+                        <div class="row d-flex justify-content-center" style="margin-left: 30%;margin-right: 30%; margin-top: 10%">
                             <button type="submit" class="custombut">Login</button>
                         </div>
                     </form>
@@ -87,5 +91,5 @@
             </div>
         </div>
     </div>
-
+l
 @endsection

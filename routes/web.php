@@ -19,8 +19,6 @@ Route::get('/home', function (){
 Route::get('/', function (){
     return view('pages.home', ['color'=>'#0F1729', 'header'=>0,'footer'=>1]);
 });
-
-
 /*Page Blog*/
 Route::get('/blog', function (){
     return view('pages.blog',['color'=>'#0F1729','header'=>0,'footer'=>1]);
@@ -60,4 +58,13 @@ Route::get('/home_client_gallery', function (){
 /*Page Home_client_review*/
 Route::get('/home_client_rating', function (){
     return view('/pages/rating-client');
+});
+/*Page Home_client_form*/
+Route::get('/home_client_wedding', function (){
+    return view('/pages/form-wedding');
+});
+
+/*Page Home_client_form-list*/
+Route::get('/home_client_form_list', function (){
+    return view('/pages/forms-client');
 });

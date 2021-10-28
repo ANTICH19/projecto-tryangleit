@@ -1,18 +1,18 @@
 /*NAV BAR*/
-@import "variables";
+@import "resources/sass/_variables";
 #back-nav-bar{
     margin-top: 10px;
     padding: 1px 1px 1px 296px;
     width: 585px;
     height: 8px;
     border-radius: 100px;
-    color: $white-try-transparent;
+    color: #CED3DB23;
 }
 #front-nav-bar{
     width: 38px;
     height: 100%;
     border-radius: 100px;
-    color: $white-try;
+    color: #CED3DB;
 }
 #nav-bar-group-text{
     padding-top: 10px;
@@ -26,8 +26,7 @@
 }
 #nav-bar-text{
     margin: 10px 25px 10px 25px;
-    font-family: roboto;
-
+    font-family: roboto, sans-serif;
     text-decoration: none;
     display: inline-block;
 
