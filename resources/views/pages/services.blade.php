@@ -61,9 +61,8 @@
             </div>
         </header>
     <div class="container" style="margin-top: 2%; margin-bottom: 3%">
-    <div class="d-flex justify-content-center">
-        <h1 id="title">Serviços</h1>
-    </div>
+    @component('components.title' , ['title'=>'Serviços'])
+    @endcomponent
 
     <!--Cards -->
     <div  class="row" >

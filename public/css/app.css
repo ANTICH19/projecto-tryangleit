@@ -11366,7 +11366,7 @@ textarea.form-control-lg {
 
 #nav-bar-text {
   margin: 10px 25px 10px 25px;
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   text-decoration: none;
   display: inline-block;
 }
@@ -11524,11 +11524,107 @@ body::-webkit-scrollbar-thumb:hover {
   color: #CED3DB;
 }
 
+.title-services {
+  font-family: "Autumn in November", sans-serif;
+  font-size: 70px;
+}
+
 #cards-service {
   padding-bottom: 200px;
 }
 
 /*END SERVICES*/
+.login_container {
+  border-radius: 30px;
+  background-color: #353d4f;
+}
+
+.custombut {
+  background-color: #ced3db;
+  border-color: transparent;
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #0F1729;
+  margin: 10%;
+}
+
+.custominput {
+  background-color: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-color: #bdc2cc;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 10px;
+}
+
+.custominput:focus {
+  border-color: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-color: #bdc2cc;
+  outline: none;
+  text-indent: 30px;
+}
+
+.custominput:focus::-moz-placeholder {
+  font-size: 0px;
+}
+
+.custominput:focus:-ms-input-placeholder {
+  font-size: 0px;
+}
+
+.custominput:focus::placeholder {
+  font-size: 0px;
+}
+
+.custominput::-moz-placeholder {
+  color: white;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.custominput:-ms-input-placeholder {
+  color: white;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.custominput::placeholder {
+  color: white;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.inputimg {
+  width: 50%;
+}
+
+#icon-login {
+  margin-right: -75px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #icon-login {
+    margin-right: -50px;
+  }
+
+  .inputimg {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  #icon-login {
+    margin-right: -50px;
+  }
+
+  .inputimg {
+    width: 90%;
+  }
+}
 /*Common File*/
 #title {
   margin: 50px;

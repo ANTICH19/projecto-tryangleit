@@ -3,9 +3,8 @@
 @section('content')
     <div class="container">
         <!--Title Blog-->
-        <div class="d-flex justify-content-around">
-            <h1 id="title">Blog</h1>
-        </div>
+        @component('components.title' , ['title'=>'Blog'])
+        @endcomponent
         <!--End Title Blog-->
 
         <!--Cards Blog-->

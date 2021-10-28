@@ -4,9 +4,8 @@
     <div class="container">
 
         <!--Title About-->
-        <div class="d-flex justify-content-around">
-            <h1 id="title">Sobre</h1>
-        </div>
+    @component('components.title' , ['title'=>'Sobre'])
+    @endcomponent
         <!--End Title About-->
 
         <!--Carousel-->
