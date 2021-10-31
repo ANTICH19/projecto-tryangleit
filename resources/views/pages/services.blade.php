@@ -85,17 +85,14 @@
     <div style="background-color: #353d4f; margin-top: 6%; border-radius: 30px; margin-bottom: 100px" class="container text-light container" >
     <!--Form-->
     <div class="row container">
-        <div class="col-9">
-            <div class="flex-column">
-                <div id="img-custom" class="row col-sm-2 col-md-3 col-lg-2 col-2 align-self-center">
-                    <img src="{{'/images/option.png'}}" class="img-custom" style="margin-top: 15%">
-                </div>Z
-            </div>
+        <div class="col-12">
             <form class="justify-content-between">
                 <div class="row justify-content-between align-self-center">
-
+                    <div id="img-custom" class="row col-sm-2 col-md-3 col-lg-2 col-2 align-self-center">
+                        <img src="{{'/images/option.png'}}">
+                    </div>
                     <div class=" col-sm-10 col-md-9 col- lg-12 col-10">
-                        <div class="d-flex justify-content-around row container" >
+                        <div class="d-flex justify-content-center row" style="padding-top: 40px">
                             @component('components.checkbox', ['title' => 'YES, I DO'])
                             @endcomponent
                             @component('components.checkbox', ['title' => 'CUPID'])

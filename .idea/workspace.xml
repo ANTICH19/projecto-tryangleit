@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.28.10 - Ivens">
-      <change afterPath="$PROJECT_DIR$/resources/views/components/card-service.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/carousel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/checkbox.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/post.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/text-form.blade.php" afterDir="false" />
+    <list default="true" id="c65e3b6a-11f9-4d22-ba11-7dca5658082c" name="Changes" comment="v.27.11 - Style formulário e alinhamento">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Autumn in November.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-BoldCondensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-BoldCondensedItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Condensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-CondensedItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/Watermelon Script Demo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_35__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_44_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2021_18_44__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2021_17_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2021_17_40__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/PostItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/post.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,9 +166,6 @@
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
     </include_path>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1z93HoC7LH4SaeESZk1Ea8Pp3g4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,11 +194,11 @@
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leandro\Desktop\projecto\public\images" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public\images" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\public" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage" />
       <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage\app\public" />
-      <recent name="C:\Users\WIN21H1\Desktop\Projecto\projecto\storage\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -293,35 +303,63 @@
       <option name="project" value="LOCAL" />
       <updated>1635187317187</updated>
     </task>
-    <task id="LOCAL-00012" summary="v.25.10 - Ivens">
-      <created>1635190905987</created>
+    <task id="LOCAL-00012" summary="v.21.11 - Home client">
+      <created>1635191776355</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1635190905987</updated>
+      <updated>1635191776355</updated>
     </task>
-    <task id="LOCAL-00013" summary="v.25.10 - Ivens">
-      <created>1635191118681</created>
+    <task id="LOCAL-00013" summary="v.21.11 - Home client">
+      <created>1635194901031</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1635191118681</updated>
+      <updated>1635194901031</updated>
     </task>
-    <task id="LOCAL-00014" summary="v.25.10 - Ivens">
-      <created>1635191643319</created>
+    <task id="LOCAL-00014" summary="v.21.11 - As minha galarias e vizualizador de galarias">
+      <created>1635196314970</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1635191643319</updated>
+      <updated>1635196314970</updated>
     </task>
-    <task id="LOCAL-00015" summary="v.28.10 - Ivens">
-      <created>1635447585131</created>
+    <task id="LOCAL-00015" summary="v.21.11 - Fomulario de Avaliação">
+      <created>1635199264912</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1635447585131</updated>
+      <updated>1635199264912</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="v.21.11 - Fomulario de Avaliação">
+      <created>1635351443376</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1635351443376</updated>
+    </task>
+    <task id="LOCAL-00017" summary="v.21.11 - Fomulario de Avaliação">
+      <created>1635356684720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635356684720</updated>
+    </task>
+    <task id="LOCAL-00018" summary="v.21.11 - Adição de lista de formulários">
+      <created>1635360735943</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635360735943</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v.27.11 - Style formulário e alinhamento">
+      <created>1635365276644</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635365276644</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,8 +381,11 @@
     <MESSAGE value="v.21.10 - Ivens" />
     <MESSAGE value="v.21.11 - Pagina de Login Feita" />
     <MESSAGE value="v.25.10 - Ivens" />
-    <MESSAGE value="v.28.10 - Ivens" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.28.10 - Ivens" />
-    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+    <MESSAGE value="v.21.11 - Home client" />
+    <MESSAGE value="v.21.11 - As minha galarias e vizualizador de galarias" />
+    <MESSAGE value="v.21.11 - Fomulario de Avaliação" />
+    <MESSAGE value="v.21.11 - Adição de lista de formulários" />
+    <MESSAGE value="v.27.11 - Style formulário e alinhamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.27.11 - Style formulário e alinhamento" />
   </component>
 </project>
