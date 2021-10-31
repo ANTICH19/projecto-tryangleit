@@ -11558,6 +11558,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-bottom: 20px;
   color: white;
   padding-top: 10px;
+    text-indent: 30px;
 }
 
 .custominput:focus {
@@ -11566,7 +11567,6 @@ body::-webkit-scrollbar-thumb:hover {
   border-bottom-style: solid;
   border-color: #bdc2cc;
   outline: none;
-  text-indent: 30px;
 }
 
 .custominput:focus::-moz-placeholder {
